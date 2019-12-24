@@ -1,0 +1,22 @@
+0000000000000000000000000000000000000000 e24453ce559644085bb22da595da5a83938048b9 julio22b <jbermudezfc90@gmail.com> 1573598631 -0400	commit (initial): finished basic ui
+e24453ce559644085bb22da595da5a83938048b9 babe9fc88f18637807450be4889abe20531db5c7 julio22b <jbermudezfc90@gmail.com> 1573607975 -0400	commit: added google maps
+babe9fc88f18637807450be4889abe20531db5c7 011dd9a31283e342df5febcde9e72ac3f4f133a5 julio22b <jbermudezfc90@gmail.com> 1573664932 -0400	commit: added burger menu, no animation
+011dd9a31283e342df5febcde9e72ac3f4f133a5 41718841d8c8c57383764f5f1a9ed18ff08caa64 julio22b <jbermudezfc90@gmail.com> 1573676400 -0400	commit: added burger button animation
+41718841d8c8c57383764f5f1a9ed18ff08caa64 ebe87b703c8171f4d205e4804bcf66670eb74d13 julio22b <jbermudezfc90@gmail.com> 1573677656 -0400	commit (amend): added burger button animation
+ebe87b703c8171f4d205e4804bcf66670eb74d13 d064efc611ccbf19472ba2e679a749e19cc21686 julio22b <jbermudezfc90@gmail.com> 1573677816 -0400	commit (amend): added burger button animation
+d064efc611ccbf19472ba2e679a749e19cc21686 ec6be23fbd8a15c33d9d05b8e66fd98cf5c0cf34 julio22b <jbermudezfc90@gmail.com> 1573678072 -0400	commit (merge): Merge branch 'master' of github.com:julio22b/teleservicios_integrales
+ec6be23fbd8a15c33d9d05b8e66fd98cf5c0cf34 18db4c30ef4f226f9d4bbaea3b926b8575f9a3ef julio22b <jbermudezfc90@gmail.com> 1573742987 -0400	commit: changed about animation
+18db4c30ef4f226f9d4bbaea3b926b8575f9a3ef fab57732f8b8df7f2d1a02684839c034c3486fd2 julio22b <jbermudezfc90@gmail.com> 1573752806 -0400	commit (amend): changed about animation
+fab57732f8b8df7f2d1a02684839c034c3486fd2 a66e80a0af69257bc4f1319f10ea7e43055d90dc julio22b <jbermudezfc90@gmail.com> 1573752944 -0400	commit (merge): Merge branch 'master' of github.com:julio22b/teleservicios_integrales
+a66e80a0af69257bc4f1319f10ea7e43055d90dc 3a1cf8ed06d2035dce208df67bbba6156c7232c7 julio22b <jbermudezfc90@gmail.com> 1573753984 -0400	commit: fixed phone number link
+3a1cf8ed06d2035dce208df67bbba6156c7232c7 f4a3d4015560fc53892e7c0c734a54f1fb6b9cf8 julio22b <jbermudezfc90@gmail.com> 1574378932 -0400	commit: commit before changing menu animation
+f4a3d4015560fc53892e7c0c734a54f1fb6b9cf8 9c34338efdc19660428635fec54d9b8b84681389 julio22b <jbermudezfc90@gmail.com> 1574783538 -0400	commit: header is now responsive
+9c34338efdc19660428635fec54d9b8b84681389 8f9fa8860af81800e857c0fb56f9aef09258891c julio22b <jbermudezfc90@gmail.com> 1576193393 -0400	commit: added images and transition events
+8f9fa8860af81800e857c0fb56f9aef09258891c 2c3efa176f44487c5dd9f10ad6f683e9053f2324 julio22b <jbermudezfc90@gmail.com> 1576894688 -0400	commit: reduced images resolution
+2c3efa176f44487c5dd9f10ad6f683e9053f2324 16406f880ad1353ef3a26d87216b8106ff3e4fb4 julio22b <jbermudezfc90@gmail.com> 1576894876 -0400	commit (amend): reduced images resolution
+16406f880ad1353ef3a26d87216b8106ff3e4fb4 8e644cf41cfd0a809f96792336170a2dbb64fec1 julio22b <jbermudezfc90@gmail.com> 1577037460 -0400	commit: fixed images
+8e644cf41cfd0a809f96792336170a2dbb64fec1 9235d14eff6600090ac36fae642bd65f60b8a9d4 julio22b <jbermudezfc90@gmail.com> 1577037754 -0400	commit (amend): fixed images
+9235d14eff6600090ac36fae642bd65f60b8a9d4 da86eadcfb96232cd7412820a71bb41d3b99a44d julio22b <jbermudezfc90@gmail.com> 1577037899 -0400	commit (merge): Merge branch 'master' of github.com:julio22b/teleservicios_integrales
+da86eadcfb96232cd7412820a71bb41d3b99a44d c86150942e76e1841e73bcb524d3c3517ad77add julio22b <jbermudezfc90@gmail.com> 1577049772 -0400	commit: added contact form
+c86150942e76e1841e73bcb524d3c3517ad77add d0c41e516f56bcd8338d8901c708b1228a540445 julio22b <jbermudezfc90@gmail.com> 1577050184 -0400	commit (amend): added contact form
+d0c41e516f56bcd8338d8901c708b1228a540445 bc93ef4dae7b3c86c66282a23c406be2ab3dd087 julio22b <jbermudezfc90@gmail.com> 1577050291 -0400	commit (merge): Merge branch 'master' of github.com:julio22b/teleservicios_integrales

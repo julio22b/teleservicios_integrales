@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Teleservicios Integrales</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="menu-container">
+                <ol class="change list">
+                    <li><a class="nav-links" href="#contact">Contacto</a></li>
+                    <li><a class="nav-links" href="#products">Artículos</a></li>
+                    <li><a class="nav-links" href="#about">Acerca</a></li>
+                </ol>
+            </div>
+            <input type="checkbox" class="toggler hide-on-media" id="toggle">
+            <div class="hamburger hide-on-media">
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about fadeInDown" id="about">
+            <div class="introduction">
+                <h1>Lorem, ipsum dolor.</h1>
+                <h3>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet...</h1>
+                    <img src="./img/local.png" alt="local">
+            </div>
+        </section>
+        <section class="products" id="products">
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+            <div class="products-container">
+                <figure class="cf2 shadow">
+                    <img class="bottom" id="first-product" src="./img/aurii-frente-solo.png"
+                        alt="telefono inteligente aurii">
+                    <img class="top transparent" src="./img/aurii-detras-solo.png" alt="telefono inteligente aurii">
+                    <figcaption>Aurii Intense XT <p>$55</p>
+                    </figcaption>
+                </figure>
+                <figure id="yezz-liv">
+                    <img class="bottom" src="./img/yezz-liv1-solo-frente.png" alt="celular yezz liv 1">
+                    <img class="top transparent" src="./img/yezz-liv1-solo-detras.png" alt="celular yezz liv 1">
+                    <figcaption>Yezz Liv 1 <p>$50</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/yezz-4e-solo.png" alt="celular yezz 4e">
+                    <img class="top transparent" src="" alt="">
+                    <figcaption>Yezz 4E <p>$45</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/yezz-c21-solo.png" alt="telefono yezz c21">
+                    <img class="top transparent" src="" alt="">
+                    <figcaption>Yezz C21 <p>$12</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/royale-x2-solo.png" alt="celular fero royale x2">
+                    <img class="top transparent" src="./img/royal-x2-solo-detras.png" alt="">
+                    <figcaption>Fero Royale X2 <p>$85</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/alcatel-tetra-frente.png" alt="celular alcatel tetra">
+                    <img class="top transparent" src="./img/alcatel-tetra-detras.png" alt="">
+                    <figcaption>Alcatel Tetra <p>$60</p>
+                    </figcaption>
+                </figure>
+                <!-- <figure id="nintendo">
+                    <img class="bottom" src="./img/nintendo-sup-solo.png" alt="nintendo sup">
+                    <img class="top transparent" src="./img/nintendo-sup-caja.png" alt="nintendo sup">
+                    <figcaption>Nintendo Sup <p>$25</p>
+                    </figcaption>
+                </figure> -->
+                <figure>
+                    <img class="bottom" src="./img/audifono-inalambrico-bwl.png" alt="audifonos inalambricos">
+                    <img class="top transparent" src=""
+                        alt="audifonos inalambricos">
+                    <figcaption>Audífonos Inalámbricos<p>$20</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/audifono-alambrico-m10-float.png" alt="audifono alambrico">
+                    <img class="top transparent" src="./img/audifono-alambrico-m10.png" alt="audifono alambrico">
+                    <figcaption>Audífonos Alámbricos M-10 <p>$5</p>
+                    </figcaption>
+                </figure>
+                <figure id="audifono-i12">
+                    <img class="bottom" src="./img/audifonos-i12-afuera-con-caja.png" alt="airpods i12">
+                    <img class="top transparent" src="./img/audifonos-i12-caja.png" alt="airpods i12">
+                    <figcaption>Audífonos Inalámbricos i12-TWS <p>$20</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/telefono-panasonic-grande-solo.png" alt="telefono panasonic">
+                    <img class="top transparent" src="./img/panasonic-grande-blanco-caja.png" alt="telefono panasonic">
+                    <figcaption>Teléfono Panasonic <p>$20</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/telefono-panasonic-pequeno-solo.png" alt="telefono panasonic">
+                    <img class="top transparent" src="./img/telefono-panasonic-pequeno-detras.png"
+                        alt="telefono panasonic">
+                    <figcaption>Teléfono Panasonic <p>$12</p>
+                    </figcaption>
+                </figure>
+                <figure id="router">
+                    <img class="bottom" src="./img/modem-tplink-caja.png" alt="router tp-link">
+                    <img class="top transparent" src="./img/modem-tplink-caja-detras.png" alt="router tp-link">
+                    <figcaption>Router TP-LINK 300 Mbps <p>$30</p>
+                    </figcaption>
+                </figure>
+                <figure id="modem">
+                    <img class="bottom" src="./img/modem-solo.png" alt="modem explore">
+                    <img class="top transparent" src="./img/modem-caja.png" alt="modem explore">
+                    <figcaption>Modem ADSL2+ - Explore<p>$20</p>
+                    </figcaption>
+                </figure>
+                <figure id="modem-router-tplink">
+                    <img class="bottom" src="./img/tplink-w8901n.png" alt="modem router tp-link">
+                    <img class="top transparent" src="" alt="">
+                    <figcaption>Modem Router TP-LINK 150 Mbps<p>$30</p>
+                    </figcaption>
+                </figure>
+                <figure id="jio">
+                    <img class="bottom" src="./img/jio.png" alt="wipod jio">
+                    <img class="top transparent" src="./img/jio-caja.png" alt="wipod jio">
+                    <figcaption>WiFi Jio<p>$35</p>
+                    </figcaption>
+                </figure>
+                <figure id="batidora">
+                    <img class="bottom" src="./img/batidora-caja.png" alt="batidora premier">
+                    <img class="top transparent" src="" alt="">
+                    <figcaption>Batidora con taza - Premier <p>$20</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/peso-electronico.png" alt="peso electronico">
+                    <img class="top transparent" src="" alt="">
+                    <figcaption>Peso electrónico <p>$10</p>
+                    </figcaption>
+                </figure>
+                <figure id="licuadora">
+                    <img class="bottom" src="./img/licuadora.png" alt="licuadora premier">
+                    <img class="top transparent" src="./img/licuadora-caja.png" alt="licuadora premier">
+                    <figcaption>Licuadora con picador <p>$20</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img class="bottom" src="./img/bombillo-frente.png" alt="bombillo led">
+                    <img class="top transparent" src="./img/bombillos-detras.png" alt="bombillo led">
+                    <figcaption>Bombillo LED <p>$2,5</p>
+                    </figcaption>
+                </figure>
+                <!--            <figure>
+                    <img class="bottom" src="./img/detector-billetes.png" alt="">
+                    <img class="top transparent" src="./img/detector-billetes-detras.png" alt="">
+                    <figcaption>Detector de billetes <p>$8</p></figcaption>
+                </figure> -->
+            </div>
+        </section>
+        <section class="map-and-contact-form">
+            <div class="maps-container">
+                <h2>Encuéntranos con <span>Google Maps</span></h2>
+                <div id="map"></div>
+            </div>
+            <div class="form-container">
+                <h2>Envíanos un mensaje o escribe a nuestras redes sociales</h2>
+                <form action="https://getform.io/f/ed2dede0-5267-4c53-8196-4a2a57d7c0cf" method="POST">
+                    <input type="text" name="email" placeholder="Correo" required>
+
+                    <input type="text" name="name" placeholder="Nombre" required>
+
+                    <input type="text" name="phone" placeholder="Teléfono">
+
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Tu mensaje..."></textarea>
+                    <button class="send" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="contact" class="footer">
+        <div class="info">
+            <p><img src="./img/iconmonstr-phone-10.svg" alt="phone"><strong> Teléfono:</strong><a
+                    href="tel:04165434051"> 0416-5434051</a></p>
+            <p><img src="./img/iconmonstr-location-1.svg" alt="location"><strong> Dirección:</strong> Lorem ipsum, dolor
+                sit amet consectetur</p>
+        </div>
+        <div class="socials-logos">
+            <a href="https://api.whatsapp.com/send?phone=584165434051&text=&source=&data="><img src="./img/whatsapp.svg"
+                    alt="Whatsapp logo"></a>
+            <a href="instagram://user?username=telservimcy"><img src="./img/instagram.svg" alt="Instagram logo"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    </script>
+</body>
+
+</html>
