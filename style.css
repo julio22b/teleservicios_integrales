@@ -13,12 +13,14 @@ header{
     top: 0;
     left: 0;
     z-index: 1;
-    border-bottom: 2px solid black;
     animation: slideInLeft both 0.8s linear;
     background-image: url(./img/banner-resized-420w.jpg);
-    background-clip: content-box;
     background-repeat: no-repeat;
-    height: 12%;
+
+}
+
+header img{
+    border-bottom: 2px solid black;
 }
 
 .nav-bar{
@@ -83,7 +85,7 @@ header{
 @media screen and (min-width: 675px){
     header{
         border: none;
-        background-image: url(./img/banner.jpg);
+        background-image: url(./img/banner-1500w-276h.png);
     }
 
     .menu-container{
@@ -317,13 +319,8 @@ main{
         width: 20%;
         margin: 0 5%;
     }
-    
 
-    #modem-router-tplink{
-        margin-top: 2em;
-    }
-
-    #router{
+    #router, #router-zte, #modem-router-tplink{
         margin-top: 4.5em;
     }
 
@@ -331,8 +328,9 @@ main{
         margin-top: 54vh;
     }
 
-    #nintendo > figcaption, #audifono-ea > figcaption{
-        margin-top: 55vh;
+
+    #router-zte > figcaption{
+        margin-top: 45vh;
     }
 }
 
